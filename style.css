@@ -1,0 +1,240 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(#abe7eb, #FFFFFF);
+    
+}
+
+header{
+    background: linear-gradient(#FFFFFF, #abe7eb);
+    width: auto;
+    height: auto;
+}
+
+#logo{
+    width: 300px;
+}
+
+#nav{
+    text-align: center;
+    font-family: Comfortaa-Regular;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    opacity: .8;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    color: #64CED8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#contactmail{
+    font-size: 16px;
+    padding-top: 15px;
+    float: right;
+}
+
+#video{
+    text-align: center;
+    padding: 30px;
+}
+
+#ouais{
+    margin-top: 100px;
+    border: 1px solid black;
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+#pub{
+    margin: 100px;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#histoire{
+    position: relative;
+    margin-top: 100px;
+    width: auto;
+    height: 900px;
+    border: 1px solid black;
+}
+
+#blabla_histoire{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-90%, -66%);
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#blabla_histoire h1{
+    font-size: 40px;
+    font-family: Comfortaa-Regular;
+    padding-right: 20px;
+    color: #64CED8;
+}
+#blabla_histoire p{
+    text-align: left;
+    font-size: 14px;
+    font-family: Comfortaa-Regular;
+    padding-left: 50px;
+    padding-right: 50px;  
+    word-spacing: 12px;
+    line-height: 23px;
+}
+
+#img_histoire{
+    margin-top: 60px;
+    text-align: center;
+}
+
+#techno{
+    position: relative;
+    margin-top: 100px;
+    width: auto;
+    height: 900px;
+    border: 1px solid black;
+}
+
+#blabla_techno{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-90%, -66%);
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 75px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#blabla_techno h1{
+    font-size: 30px;
+    font-family: Comfortaa-Regular;
+    color: #64CED8;
+    padding-right: 20px;
+}
+
+#blabla_techno p{
+    text-align: left;
+    font-size: 14px;
+    font-family: Comfortaa-Regular;
+    padding-left: 50px;
+    padding-right: 50px;  
+    word-spacing: 12px;
+    line-height: 23px;
+}
+
+#img_techno{
+    margin-top: 60px;
+    text-align: center;
+}
+
+#contact{
+    position: relative;
+    margin-top: 100px;
+    width: auto;
+    height: 500px;
+    border: 1px solid black;
+    font-family: Comfortaa-Regular;
+    color: black;
+    padding: 50px 30px;
+}
+
+#gauche {
+    position: absolute;
+    width: 49%;
+}
+
+#contact h1{
+    font-size: 30px; 
+}
+
+#contact p{
+    padding-top: 40px;
+}
+
+#droite {
+    float: right;
+    width: 49%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #abe7eb;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  width: 96%;
+}
+
+input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: #abe7eb;
+}
+
+.row {
+  float: left;
+  width: 96%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+    text-align: center;
+}
+
+@font-face{
+    font-family: "Comfortaa-Regular";
+    src: url("Comfortaa-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Comfortaa-Bold";
+    src: url("Comfortaa-Bold.ttf");
+}
